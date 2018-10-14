@@ -1,0 +1,152 @@
+/*
+Theme Name: islandTheme
+Author: jonathan Kruse
+version: 1.0.0
+*/
+body{
+    padding:3%;
+}
+a{
+    color: white;
+}
+#leftHeader{
+    position: relative;
+    float:right;
+    right:50px;
+    color: white;
+    /* text-shadow: 2px 2px 4px #000000; */
+}
+nav{
+    margin:0 auto;
+}
+.new{
+    font-size: 500px;
+}
+.headContainer{
+    color:white;
+   padding: 10px;
+   /* background-color: rgb(255, 255, 255);  */
+   position: fixed;
+   width: 90%;
+   top: 3%;
+   margin-left:2%;
+   
+   
+}
+.headContainerScroll{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);  
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    
+}
+.navHead{
+    font-size: 25px;
+    padding-right:30px;
+    padding-left: 40px;
+    color: white;
+}
+.navHeadScroll{
+    font-size: 25px;
+    padding-right:20px;
+    padding-left: 40px;
+    margin:0 auto;
+    position:fixed;
+}
+.preScroll{
+
+}
+.preScroll ul li{
+    list-style: none;
+    overflow:hidden;  
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: 0px;
+  /* background-color: #fff; */
+  border: 1px solid #ddd;
+  float:left;
+  color: white;
+}
+.liScroll{
+  /* position: fixed;
+  display: inline-block;
+  left: 250px; */
+ display: none;
+}
+
+
+@media (max-width: 700px) {
+    #leftHeader {
+        display:none;
+    }
+
+}
+
+#menuGlyph{
+    font-size: 25px;
+    padding: 5px;
+    
+    
+}
+/* #menuGlyph:hover{
+    
+    transform: rotate(30deg);
+    
+} */
+.menuGlyphCick{
+    font-size: 30px;
+    transform: rotate(90deg);
+    transition-duration: .2s;
+}
+.dropdown-menu {
+    width: 20%;
+    font-size: 20px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  
+}
+.dropdown-menu ul li{
+    list-style: none;
+    margin: 0px auto;
+    display: block;
+    float:left;
+    position: relative;
+}
+.firstSection{
+    background-image: url('https://cdn.cnn.com/cnnnext/dam/assets/170407220916-04-iconic-mountains-matterhorn-restricted.jpg'); 
+     
+    top: 0px;
+    /* z-index: -1; */
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-position:0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.firstSectionScroll{
+    /* background-image: url('./wp-content/themes/islandTheme/assets/images/washCoast.jpg'); */
+    position:fixed;
+    top: 50px;
+    /* z-index: -1; */
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+}
+.firstSection2{
+    /* background-image: url('./wp-content/themes/islandTheme/assets/images/washCoast.jpg'); */
+   
+    /* z-index: 1; */
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+}
+.footer{
+    width:100%;
+    height:300px;
+    background-color: red;
+}
